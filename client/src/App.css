@@ -1,0 +1,420 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+ /* navbar start */
+.nav-link{
+  color: black !important;
+  font-size: 1.2rem;
+  padding: .5rem;
+  margin: .5rem;
+}
+
+.nav-link:hover{
+  font-family: cursive;
+  text-decoration: overline;
+ background-color: #888;
+ border-radius: 20px;
+ color: #0404f9aa !important;
+}
+ /* navbar end */
+
+
+ /* footer start */
+.footer-container{
+  background-color: #f1fbea;
+  border-radius: 10px;
+  
+}
+
+
+ .footer-title{
+
+  border-radius: 10px;
+  font-size: 1.4rem;
+  margin-top: 20px;
+  margin-left: 30px;
+ }
+
+ .footer-social-icon a{
+  font-size: 1.5rem;
+  margin-right: 20px;
+  color: #443f3f;
+  text-decoration: none;
+ }
+.footer-social-icon{
+ margin-left: 100px ;
+}
+ .footer-social-icon a:hover{
+  font-size: 2rem;
+  border-radius: 10px;
+  text-align: center;
+ }
+ .footer-social-icon{
+  
+  border-radius: 10px;
+  margin-top: 20px;
+ }
+ /* footer end  */
+
+ /* HistoryOfMathe section start */
+.mathe-defination-heading{
+ border-bottom: 2px solid rgb(245, 193, 193);
+ margin-bottom: 30px;
+ cursor: pointer;
+}
+
+.mathe-defination{
+  text-align: justify;
+  cursor: pointer;
+
+}
+
+.mathe-defination::first-letter{
+  font-size:40px;
+  color: chartreuse;
+  line-height: 10px;
+
+}
+ /* HistoryOfMathe section end */
+
+ /* MainCard start  */
+.mathHistoryPara{
+  text-align: justify;
+  margin-top: 10px;
+}
+.mathHistoryPara::first-letter{
+  font-size: 30px;
+  color: magenta;
+  line-height: 10px;
+}
+
+.MatheHistoryDetalies{
+  text-align: justify;
+}
+
+.modal-body {
+  background-color: #ebecffaa;
+}
+
+.discover a img{
+height: 40px;
+color: mediumseagreen;
+}
+.discover a{
+  border: 10px solid red;
+}
+
+.discover-man{
+  width: 20px;
+}
+ /* MainCard end */
+
+ /* famus start */
+.famus-images{
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.famus-description{
+  text-align: justify;
+  background-color: #ebecf1aa;
+  
+}
+
+
+ /*  famus end  */
+
+
+ /* math classification start */
+.classification-image{
+  height: 100px;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.classification-description{
+  text-align: justify;
+  font-size: 15px;
+
+}
+
+
+ /* mathe classification end  */
+
+/* contact page css start */
+.form_contact{
+  
+  background-color: #a3a8feaa;
+  border-radius: 10px;
+  color: rgb(1, 107, 107);
+  
+ 
+}
+.contact-page{
+  background-color: #bfbfecaa;
+border-radius: 10px;
+  
+}
+.contact-email{
+margin-left:20px;
+margin-top: 40px;
+color: #1f2d2baa;
+}
+
+.contact-address{
+  color: darkgreen;
+}
+
+/* contact page css end  */
+
+
+/* info card css start */
+.info-card{
+  height: 250px;
+  width: 300px;
+  line-height: 10px;
+  text-wrap: nowrap;
+ margin: 0 auto;
+background-color: #f5f1f1;
+}
+
+.moreinfo-heading{
+  text-decoration: underline;
+  border: #69fd07;
+  border-radius: 10px;
+
+  padding: 20px;
+  margin: 20px;
+ text-align: center;
+  margin: 0 auto;
+}
+
+.more-info{
+  background-color: rgb(253, 247, 247);
+  border-radius: 10px;
+
+}
+/* info card css end  */
+/*  algebra rull css start */
+.rull-image {
+  display: block;
+  margin:  0 auto;
+  width: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.rull-heading{
+  text-align: center;
+
+}
+.algebra-container{
+margin-top: 150px;
+  }
+/* algebra rull css end */
+
+
+/* arithmetic css start */
+
+.arithmetic-container{
+background-color: #a3a3a3aa;
+border-radius: 10px;
+}
+
+.arithe_img{
+  width:300px;
+height:200px;
+display: block;
+margin: 0 auto;
+border-radius: 10px;
+margin-top: -20px;
+}
+
+.arithe-title { 
+  text-align: center ;
+  /* text-wrap: nowrap; */
+ font-family: 'Times New Roman', Times, serif;
+ box-shadow: 4px 2px   #443f3f;
+ margin-top: 5px;
+  font-weight: bold;
+  color: #f80d38aa;
+}
+
+.arith-para{
+  text-align:  justify;
+ text-wrap: nowrap;
+  font-size:11px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 5px;
+ 
+}
+.arith-card{
+  height: 350px;
+}
+
+.arith-lg-card{
+height: 430px;
+
+}
+/* arithmetic css end */
+
+
+
+
+/* register css start */
+.register-form{
+ /* width: 350px; */
+ background-color: #0a0afdaa;
+ border-radius: 10px;
+ height: 100vh;
+ margin: 0 auto;
+display: block;
+justify-content: center;
+align-items: center;
+display: flex;
+ 
+}
+
+/* register css end */
+
+/* login start css */
+.login-button{
+  margin-left: 200px;
+
+}
+
+.login-form{
+  width: 400px;
+  margin: 0 auto;
+ 
+  margin-top: 200px;
+}
+/* login end css */
+
+/* employees form css start */
+.employees-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #2bf794aa;
+  border-radius: 10px;
+}
+
+/* employees form css end  */
+
+/* student form css start */
+.student-form{
+ /* width: 350px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fe2424aa;
+  border-radius: 10px;
+  height: 100vh;
+}
+
+
+/* student form css end  */
+
+
+
+
+
+
+
+
+
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #000 !important;
+    padding: 8px !important;
+  }
+}
+
+@media print {
+  body {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #000 !important;
+    padding: 8px !important;
+  }
+}
+
+
+
+
+
+
